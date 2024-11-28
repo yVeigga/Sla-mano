@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flashcards Interativos</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Flashcards de Estudo</h1>
+  </header>
+  <main>
+    <div class="flashcard-container">
+      <div class="flashcard">
+        <div class="front">O que é HTML?</div>
+        <div class="back">HTML é a linguagem de marcação para criar páginas web.</div>
+      </div>
+      <div class="flashcard">
+        <div class="front">O que é CSS?</div>
+        <div class="back">CSS é a linguagem usada para estilizar páginas web.</div>
+      </div>
+      <div class="flashcard">
+        <div class="front">O que é JavaScript?</div>
+        <div class="back">JavaScript é a linguagem de programação usada para criar interatividade nas páginas.</div>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <p>© 2024 Flashcards de Estudo. Todos os direitos reservados.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
